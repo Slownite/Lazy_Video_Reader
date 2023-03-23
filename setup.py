@@ -1,5 +1,4 @@
-from setuptools import setup, find_packages
-
+from setuptools import find_packages, setup
 
 VERSION = "0.1.0"
 DESCRIPTION = (
@@ -18,7 +17,9 @@ setup(
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=["opencv-python", "numpy"],
-    keywords=["python", "video", "frames extraction", "lazy loading", "generator"],
+    keywords=["python", "video", "frames extraction",
+              "lazy loading", "generator"],
+    url="https://github.com/Slownite/Lazy_Video_Reader",
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
