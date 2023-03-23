@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 DESCRIPTION = (
     "A lazy video loader for working with a huge amount of video frame as numpy array"
 )
