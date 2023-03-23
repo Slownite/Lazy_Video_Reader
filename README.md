@@ -1,7 +1,7 @@
 # Lazy_Video_Reader
 
 ## Installation
-    pip install Lazy_Video_Reader
+    pip install LazyVideoReader
 
 use sudo if you want to install it for root
 
